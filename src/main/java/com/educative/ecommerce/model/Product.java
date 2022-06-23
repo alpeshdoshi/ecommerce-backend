@@ -18,6 +18,7 @@ public class Product {
     private @NotNull double price;
     private @NotNull String description;
 
+    //many products in one category
     @JsonIgnore
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "category_id", nullable = false)
