@@ -1,4 +1,4 @@
-package com.educative.ecommerce.controllers;
+package com.educative.ecommerce.controller;
 
 import com.educative.ecommerce.common.ApiResponse;
 import com.educative.ecommerce.dto.cart.AddToCartDto;
